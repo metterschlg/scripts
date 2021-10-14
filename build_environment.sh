@@ -17,3 +17,4 @@ echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
 echo 'export USE_CCACHE=1' >> ~/.bashrc
 . ~/.bashrc
 mkdir ~/android
+cd
