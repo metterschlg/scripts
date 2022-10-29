@@ -9,7 +9,7 @@ sudo apt -y autoremove
 mkdir ~/bin
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-ccache -M 100G
+ccache -M 50G
 echo 'export ANDROID_COMPILE_WITH_JACK=false' >> ~/.bashrc
 echo 'export CCACHE_EXEC=/usr/bin/ccache' >> ~/.bashrc
 echo 'export LANG=C' >> ~/.bashrc
